@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.firstDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    background-image: linear-gradient(to right, #ebbebe, #dc68c3);
+
+}
+.iconsDiv{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+.sencondDiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#phIcon {
+    color: white;
+}
+.ph{
+    color: white;
+}
