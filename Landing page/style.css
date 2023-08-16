@@ -27,3 +27,42 @@
 .ph{
     color: white;
 }
+.reqbtn{
+    padding: 12px 20px;
+    border-radius: 22px 22px 20px 20px;
+    outline: none;
+    border: 2px solid white;
+    background: #dc68c3;
+    color: white;
+}
+.thirdDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ulDiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ulDiv li{
+    list-style-type: none;
+}
+.ulDiv li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.logoDiv img{
+    width: 200px;
+}
+#seachIcn{
+    background: #000;
+    color: white;
+    padding: 20px 8px;
+    margin-top: -20px;
+}
+.buyNowLink{
+    background: #ebbebe;
+    padding: 30px 10px;
+}
