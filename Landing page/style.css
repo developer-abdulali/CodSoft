@@ -59,10 +59,44 @@
 #seachIcn{
     background: #000;
     color: white;
-    padding: 20px 8px;
-    margin-top: -20px;
+    padding: 33px 8px;
+    /* margin-top: 20px; */
 }
 .buyNowLink{
     background: #ebbebe;
     padding: 30px 10px;
+}
+.divFour{
+    height: 700px;
+    width: 100%;
+    background-image: url(./images/deal2ndImg.jpeg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+.divForLine{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    height: 300px;
+    width: 5px;
+    background: #000;
+}
+.wearecrtv{
+    position: absolute;
+    left: 21%;
+    top: 36%;
+    color: white;
+    letter-spacing: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.cdapara1{
+    position: absolute;
+    left: 21%;
+    top: 41%;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
 }
