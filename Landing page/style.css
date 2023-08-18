@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .firstDiv {
   display: flex;
@@ -172,30 +173,56 @@
   opacity: 0.3;
   cursor: pointer;
 }
-.fifthDiv{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-image: linear-gradient(to right, #ebbebe, #dc68c3);
-    padding: 70px 300px;
-    color: white;
+.fifthDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to right, #ebbebe, #dc68c3);
+  padding: 70px 300px;
+  color: white;
 }
-#rocket_icn{
-    padding: 10px;
-    border: 2px solid white;
-    border-radius: 40px;
+#rocket_icn {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 40px;
 }
-.icnwithspn{
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    margin-bottom: 10px;
-
+.icnwithspn {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 10px;
 }
-.spans{
-    font-size: 20px;
-    font-weight: 800;
+.spans {
+  font-size: 20px;
+  font-weight: 800;
 }
-.text{
-    font-weight: 700;
+.text {
+  font-weight: 700;
+}
+.sixthDiv {
+  padding: 0px 320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.aboutUs {
+  font-size: 30px;
+  font-weight: 800;
+}
+.clients {
+  font-size: 20px;
+  margin: 10px 0px;
+  font-weight: 700;
+}
+.descriptionPara {
+  font-size: 20px;
+}
+.readMoreBtn {
+  padding: 12px 20px;
+  border-radius: 22px 22px 20px 20px;
+  outline: none;
+  margin-top: 5px;
+  border: 2px solid white;
+  background: #dc68c3;
+  color: white;
 }
